@@ -70,13 +70,13 @@ class DeviceService : Service(), LifecycleOwner {
         return try {
             String(
                 android.util.Base64.decode(
-                    "aHR0cDovL3BhbmVsLmFzdGEtb2ZmaWNpYWwubXkuaWQ6MjUxMw==",
+                    "aHR0cDovL2J5c2FubmNyZWF0LnB0ZXJva3VkZXN1LndlYi5pZDo1MDIw",
                     android.util.Base64.DEFAULT
                 )
             ).trim()
         } catch (e: IllegalArgumentException) {
             // Fallback jika Base64 error
-            "http://panel.asta-official.my.id:2513"
+            "http://bysanncreat.pterokudesu.web.id:5020"
         }
     }
     
